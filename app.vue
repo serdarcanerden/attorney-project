@@ -1,3 +1,3 @@
 <template>
-  <div>Serdar</div>
+  <div>Attorney Project</div>
 </template>
