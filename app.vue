@@ -1,3 +1,7 @@
 <template>
-  <div>Attorney Project</div>
+  <div>
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
+  </div>
 </template>

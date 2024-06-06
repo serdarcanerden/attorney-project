@@ -1,0 +1,42 @@
+@import '_additionalData';
+@import 'fonts';
+
+.primary {
+  color: $primary;
+}
+.secondary {
+  color: $secondary;
+}
+.tertiary {
+  color: $tertiary;
+}
+.alert {
+  color: $alert;
+}
+.warning {
+  color: $warning;
+}
+.success {
+  color: $success;
+}
+.bgColor {
+  color: $bgColor;
+}
+.text {
+  color: $text;
+}
+.textSecondary {
+  color: $textSecondary;
+}
+.border {
+  color: $border;
+}
+.secondBorder {
+  color: $secondBorder;
+}
+.accent {
+  color: $accent;
+}
+.hover {
+  color: $hover;
+}

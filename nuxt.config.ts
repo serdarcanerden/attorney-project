@@ -1,13 +1,24 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  app : {   
+     pageTransition: { name: 'page', mode: 'out-in' }
+  },
   devtools: {
     enabled: true,
-
     timeline: {
       enabled: true
     }
   },
-
+  css : ['~/assets/scss/main.scss','~/assets/scss/fonts.scss'],
+  vite: {
+    css: {
+      preprocessorOptions: {
+        scss: {
+          additionalData: '@use "~/assets/scss/_additionalData.scss" as *;',
+        }
+      }
+    }
+  },
   $development : {
     devtools: {
       enabled: true,
